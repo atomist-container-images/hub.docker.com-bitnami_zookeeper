@@ -1,9 +1,18 @@
-# Tags: latest, 3.8.0-debian-10-r14, 3.8.0, 3.8-debian-10, 3.8
+# Tags: latest, 3.8.0-debian-10-r15, 3.8.0, 3.8-debian-10, 3.8
 FROM bitnami/zookeeper:latest
-FROM bitnami/zookeeper:3.8.0-debian-10-r14
+FROM bitnami/zookeeper:3.8.0-debian-10-r15
 FROM bitnami/zookeeper:3.8.0
 FROM bitnami/zookeeper:3.8-debian-10
 FROM bitnami/zookeeper:3.8
+
+# Tags: _
+FROM bitnami/zookeeper:_
+
+# Tags: 3.5.9-debian-10-r173, 3.5.9, 3.5-debian-10, 3.5
+FROM bitnami/zookeeper:3.5.9-debian-10-r173
+FROM bitnami/zookeeper:3.5.9
+FROM bitnami/zookeeper:3.5-debian-10
+FROM bitnami/zookeeper:3.5
 
 # Tags: 3.6.3-debian-10-r291, 3.6.3, 3.6-debian-10, 3.6
 FROM bitnami/zookeeper:3.6.3-debian-10-r291
@@ -11,20 +20,17 @@ FROM bitnami/zookeeper:3.6.3
 FROM bitnami/zookeeper:3.6-debian-10
 FROM bitnami/zookeeper:3.6
 
-# Tags: _
-FROM bitnami/zookeeper:_
-
 # Tags: 3.7.0-debian-10-r334, 3.7.0, 3.7-debian-10, 3.7
 FROM bitnami/zookeeper:3.7.0-debian-10-r334
 FROM bitnami/zookeeper:3.7.0
 FROM bitnami/zookeeper:3.7-debian-10
 FROM bitnami/zookeeper:3.7
 
-# Tags: 3.5.9-debian-10-r172, 3.5.9, 3.5-debian-10, 3.5
+# Tags: 3.8.0-debian-10-r14
+FROM bitnami/zookeeper:3.8.0-debian-10-r14
+
+# Tags: 3.5.9-debian-10-r172
 FROM bitnami/zookeeper:3.5.9-debian-10-r172
-FROM bitnami/zookeeper:3.5.9
-FROM bitnami/zookeeper:3.5-debian-10
-FROM bitnami/zookeeper:3.5
 
 # Tags: 3.6.3-debian-10-r290
 FROM bitnami/zookeeper:3.6.3-debian-10-r290
@@ -325,6 +331,3 @@ FROM bitnami/zookeeper:3.6.3-debian-10-r262
 
 # Tags: 3.7.0-debian-10-r305
 FROM bitnami/zookeeper:3.7.0-debian-10-r305
-
-# Tags: 3.5.9-debian-10-r142
-FROM bitnami/zookeeper:3.5.9-debian-10-r142
