@@ -1,30 +1,84 @@
-# Tags: latest, 3.8.0-debian-10-r15, 3.8.0, 3.8-debian-10, 3.8
+# Tags: latest, 3.8.0-debian-10-r19, 3.8.0, 3.8-debian-10, 3.8
 FROM bitnami/zookeeper:latest
-FROM bitnami/zookeeper:3.8.0-debian-10-r15
+FROM bitnami/zookeeper:3.8.0-debian-10-r19
 FROM bitnami/zookeeper:3.8.0
 FROM bitnami/zookeeper:3.8-debian-10
 FROM bitnami/zookeeper:3.8
 
-# Tags: _
-FROM bitnami/zookeeper:_
-
-# Tags: 3.5.9-debian-10-r173, 3.5.9, 3.5-debian-10, 3.5
-FROM bitnami/zookeeper:3.5.9-debian-10-r173
-FROM bitnami/zookeeper:3.5.9
-FROM bitnami/zookeeper:3.5-debian-10
-FROM bitnami/zookeeper:3.5
-
-# Tags: 3.6.3-debian-10-r291, 3.6.3, 3.6-debian-10, 3.6
-FROM bitnami/zookeeper:3.6.3-debian-10-r291
+# Tags: 3.6.3-debian-10-r296, 3.6.3, 3.6-debian-10, 3.6
+FROM bitnami/zookeeper:3.6.3-debian-10-r296
 FROM bitnami/zookeeper:3.6.3
 FROM bitnami/zookeeper:3.6-debian-10
 FROM bitnami/zookeeper:3.6
 
-# Tags: 3.7.0-debian-10-r334, 3.7.0, 3.7-debian-10, 3.7
-FROM bitnami/zookeeper:3.7.0-debian-10-r334
+# Tags: _
+FROM bitnami/zookeeper:_
+
+# Tags: 3.7.0-debian-10-r339, 3.7.0, 3.7-debian-10, 3.7
+FROM bitnami/zookeeper:3.7.0-debian-10-r339
 FROM bitnami/zookeeper:3.7.0
 FROM bitnami/zookeeper:3.7-debian-10
 FROM bitnami/zookeeper:3.7
+
+# Tags: 3.5.9-debian-10-r177, 3.5.9, 3.5-debian-10, 3.5
+FROM bitnami/zookeeper:3.5.9-debian-10-r177
+FROM bitnami/zookeeper:3.5.9
+FROM bitnami/zookeeper:3.5-debian-10
+FROM bitnami/zookeeper:3.5
+
+# Tags: 3.6.3-debian-10-r295
+FROM bitnami/zookeeper:3.6.3-debian-10-r295
+
+# Tags: 3.7.0-debian-10-r338
+FROM bitnami/zookeeper:3.7.0-debian-10-r338
+
+# Tags: 3.8.0-debian-10-r18
+FROM bitnami/zookeeper:3.8.0-debian-10-r18
+
+# Tags: 3.5.9-debian-10-r176
+FROM bitnami/zookeeper:3.5.9-debian-10-r176
+
+# Tags: 3.6.3-debian-10-r294
+FROM bitnami/zookeeper:3.6.3-debian-10-r294
+
+# Tags: 3.7.0-debian-10-r337
+FROM bitnami/zookeeper:3.7.0-debian-10-r337
+
+# Tags: 3.8.0-debian-10-r17
+FROM bitnami/zookeeper:3.8.0-debian-10-r17
+
+# Tags: 3.5.9-debian-10-r175
+FROM bitnami/zookeeper:3.5.9-debian-10-r175
+
+# Tags: 3.6.3-debian-10-r293
+FROM bitnami/zookeeper:3.6.3-debian-10-r293
+
+# Tags: 3.7.0-debian-10-r336
+FROM bitnami/zookeeper:3.7.0-debian-10-r336
+
+# Tags: 3.8.0-debian-10-r16
+FROM bitnami/zookeeper:3.8.0-debian-10-r16
+
+# Tags: 3.5.9-debian-10-r174
+FROM bitnami/zookeeper:3.5.9-debian-10-r174
+
+# Tags: 3.6.3-debian-10-r292
+FROM bitnami/zookeeper:3.6.3-debian-10-r292
+
+# Tags: 3.7.0-debian-10-r335
+FROM bitnami/zookeeper:3.7.0-debian-10-r335
+
+# Tags: 3.8.0-debian-10-r15
+FROM bitnami/zookeeper:3.8.0-debian-10-r15
+
+# Tags: 3.5.9-debian-10-r173
+FROM bitnami/zookeeper:3.5.9-debian-10-r173
+
+# Tags: 3.6.3-debian-10-r291
+FROM bitnami/zookeeper:3.6.3-debian-10-r291
+
+# Tags: 3.7.0-debian-10-r334
+FROM bitnami/zookeeper:3.7.0-debian-10-r334
 
 # Tags: 3.8.0-debian-10-r14
 FROM bitnami/zookeeper:3.8.0-debian-10-r14
@@ -289,45 +343,3 @@ FROM bitnami/zookeeper:3.7.0-debian-10-r310
 
 # Tags: 3.5.9-debian-10-r147
 FROM bitnami/zookeeper:3.5.9-debian-10-r147
-
-# Tags: 3.6.3-debian-10-r266
-FROM bitnami/zookeeper:3.6.3-debian-10-r266
-
-# Tags: 3.7.0-debian-10-r309
-FROM bitnami/zookeeper:3.7.0-debian-10-r309
-
-# Tags: 3.5.9-debian-10-r146
-FROM bitnami/zookeeper:3.5.9-debian-10-r146
-
-# Tags: 3.6.3-debian-10-r265
-FROM bitnami/zookeeper:3.6.3-debian-10-r265
-
-# Tags: 3.7.0-debian-10-r308
-FROM bitnami/zookeeper:3.7.0-debian-10-r308
-
-# Tags: 3.5.9-debian-10-r145
-FROM bitnami/zookeeper:3.5.9-debian-10-r145
-
-# Tags: 3.6.3-debian-10-r264
-FROM bitnami/zookeeper:3.6.3-debian-10-r264
-
-# Tags: 3.7.0-debian-10-r307
-FROM bitnami/zookeeper:3.7.0-debian-10-r307
-
-# Tags: 3.5.9-debian-10-r144
-FROM bitnami/zookeeper:3.5.9-debian-10-r144
-
-# Tags: 3.6.3-debian-10-r263
-FROM bitnami/zookeeper:3.6.3-debian-10-r263
-
-# Tags: 3.7.0-debian-10-r306
-FROM bitnami/zookeeper:3.7.0-debian-10-r306
-
-# Tags: 3.5.9-debian-10-r143
-FROM bitnami/zookeeper:3.5.9-debian-10-r143
-
-# Tags: 3.6.3-debian-10-r262
-FROM bitnami/zookeeper:3.6.3-debian-10-r262
-
-# Tags: 3.7.0-debian-10-r305
-FROM bitnami/zookeeper:3.7.0-debian-10-r305
