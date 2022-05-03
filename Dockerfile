@@ -367,12 +367,3 @@ FROM bitnami/zookeeper:3.8.0-debian-10-r18
 
 # Tags: 3.5.9-debian-10-r176
 FROM bitnami/zookeeper:3.5.9-debian-10-r176
-
-# Tags: 3.6.3-debian-10-r294
-FROM bitnami/zookeeper:3.6.3-debian-10-r294
-
-# Tags: 3.7.0-debian-10-r337
-FROM bitnami/zookeeper:3.7.0-debian-10-r337
-
-# Tags: 3.8.0-debian-10-r17
-FROM bitnami/zookeeper:3.8.0-debian-10-r17
